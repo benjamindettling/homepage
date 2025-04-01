@@ -103,7 +103,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                     className="cta-btn cta-btn--hero"
-                    href="https://todo.benjamindettling.ch"
+                    href="https://todolist.benjamindettling.ch"
                   >
                     See Live
                   </a>
@@ -111,7 +111,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                     className="cta-btn text-color-main"
-                    href="https://github.com/yourusername/todo-app"
+                    href="https://github.com/benjamindettling/PERN-Stack-TodoList"
                   >
                     Source Code
                   </a>
