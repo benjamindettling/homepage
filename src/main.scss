@@ -1,19 +1,19 @@
-@use "./sass/vendors/bootstrap";
+@use "./styles/sass/vendors/bootstrap";
 
-@use "./sass/abstracts/mixins";
-@use "./sass/abstracts/variables";
-@use "./sass/abstracts/helpers";
+@use "./styles/sass/abstracts/mixins";
+@use "./styles/sass/abstracts/variables";
+@use "./styles/sass/abstracts/helpers";
 
-@use "./sass/base/base";
-@use "./sass/base/typography";
+@use "./styles/sass/base/base";
+@use "./styles/sass/base/typography";
 
-@use "./sass/components/buttons";
+@use "./styles/sass/components/buttons";
 
-@use "./sass/layout/container";
-@use "./sass/layout/footer";
-@use "./sass/layout/sections";
+@use "./styles/sass/layout/container";
+@use "./styles/sass/layout/footer";
+@use "./styles/sass/layout/sections";
 
-@use "./sass/sections/about";
-@use "./sass/sections/contact";
-@use "./sass/sections/hero";
-@use "./sass/sections/projects";
+@use "./styles/sass/sections/about";
+@use "./styles/sass/sections/contact";
+@use "./styles/sass/sections/hero";
+@use "./styles/sass/sections/projects";
