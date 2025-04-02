@@ -4,6 +4,8 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import LanguageToggle from "./components/LanguageToggle";
+
 
 import { initScrollReveal } from "./utils/scrollReveal";
 import initTiltAnimation from "./utils/tiltAnimation";
@@ -17,6 +19,7 @@ const App = () => {
 
   return (
     <>
+      <LanguageToggle />
       <Hero />
       <About />
       <Projects />

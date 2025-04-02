@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "intro": "Hallo, mein Name ist {{name}}",
+    "subtitle": "Ich bin ein motivierter Informatiker der ETH Zürich.",
+    "cta": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Über mich",
+    "description1": "Ich bin ein motivierter Informatiker, der an der ETH studiert hat und an mehreren Projekten selbstständig gearbeitet hat.",
+    "description2": "Tänzer, Pianist, Model.",
+    "resume": "Lebenslauf ansehen"
+  },
+  "projects": {
+    "title": "Projekte",
+    "seeLive": "Live ansehen",
+    "sourceCode": "Quellcode",
+    "todo": {
+      "title": "REST API Todo-Liste",
+      "description": "Eine Full-Stack-Webanwendung mit RESTful API-Backend und interaktivem Frontend zur Verwaltung von Aufgaben."
+    },
+    "digits": {
+      "title": "Ziffern-Klassifikator",
+      "description": "Ein Deep-Learning-Projekt, bei dem ich ein neuronales Netzwerk trainiert habe, um handgeschriebene Ziffern zu erkennen."
+    },
+    "foe": {
+      "title": "Spieldaten-Analyse",
+      "description": "Ein System zur Extraktion und Analyse von Spielerstatistiken über mehrere Matches hinweg."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "text": "Hast du eine Frage oder möchtest einfach Kontakt aufnehmen? Schreib mir gerne!",
+    "button": "Email"
+  },
+  "footer": {
+    "text": "Portfolio entwickelt von Benjamin Dettling | Basierend auf einer Vorlage von"
+  }
+}

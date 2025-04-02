@@ -1,49 +1,46 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import projectImg from "/assets/project.jpg";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="projects">
       <div className="container">
         <div className="project-wrapper">
-          <h2 className="section-title dark-blue-text">Projects</h2>
+          <h2 className="section-title dark-blue-text">{t("projects.title")}</h2>
 
           {/* Todo List App */}
           <div className="row">
             <div className="col-lg-4 col-sm-12">
               <div className="project-wrapper__text">
-                <h3 className="project-wrapper__text-title">REST API Todo List</h3>
-                <p className="mb-4">
-                  A full-stack web app where I implemented a RESTful API backend and interactive frontend to manage todos.
-                </p>
-                <div className="project-links">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    className="cta-btn cta-btn--hero"
-                    href="https://todolist.benjamindettling.ch"
-                  >
-                    See Live
-                  </a>
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    className="cta-btn text-color-main"
-                    href="https://github.com/benjamindettling/PERN-Stack-TodoList"
-                  >
-                    Source Code
-                  </a>
-                </div>
+                <h3 className="project-wrapper__text-title">
+                  {t("projects.todo.title")}
+                </h3>
+                <p className="mb-4">{t("projects.todo.description")}</p>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="cta-btn cta-btn--hero"
+                  href="https://todo.benjamindettling.ch"
+                >
+                  {t("projects.seeLive")}
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="cta-btn text-color-main"
+                  href="https://github.com/benjamindettling/PERN-Stack-TodoList"
+                >
+                  {t("projects.sourceCode")}
+                </a>
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
               <div className="project-wrapper__image">
-                <div className="thumbnail rounded">
-                  <img
-                    alt="Todo List Project"
-                    className="img-fluid js-tilt"
-                    src={projectImg}
-                  />
+                <div className="thumbnail rounded js-tilt">
+                  <img alt="Todo List Project" className="img-fluid" src={projectImg} />
                 </div>
               </div>
             </div>
@@ -53,38 +50,16 @@ const Projects = () => {
           <div className="row">
             <div className="col-lg-4 col-sm-12">
               <div className="project-wrapper__text">
-                <h3 className="project-wrapper__text-title">Digit Classifier</h3>
-                <p className="mb-4">
-                  A deep learning project where I trained a neural network to accurately classify handwritten digits.
-                </p>
-                <div className="project-links">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    className="cta-btn cta-btn--hero"
-                    href="https://benjamindettling.ch"
-                  >
-                    See Live
-                  </a>
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    className="cta-btn text-color-main"
-                    href="https://github.com/benjamindettling"
-                  >
-                    Source Code
-                  </a>
-                </div>
+                <h3 className="project-wrapper__text-title">
+                  {t("projects.digits.title")}
+                </h3>
+                <p className="mb-4">{t("projects.digits.description")}</p>
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
               <div className="project-wrapper__image">
-                <div className="thumbnail rounded">
-                  <img
-                    alt="Digit Classifier Project"
-                    className="img-fluid js-tilt"
-                    src={projectImg}
-                  />
+                <div className="thumbnail rounded js-tilt">
+                  <img alt="Digit Classifier Project" className="img-fluid" src={projectImg} />
                 </div>
               </div>
             </div>
@@ -94,38 +69,16 @@ const Projects = () => {
           <div className="row">
             <div className="col-lg-4 col-sm-12">
               <div className="project-wrapper__text">
-                <h3 className="project-wrapper__text-title">Game Data Aggregator</h3>
-                <p className="mb-4">
-                  A system for extracting and analyzing player statistics across various matches for insights and performance.
-                </p>
-                <div className="project-links">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    className="cta-btn cta-btn--hero"
-                    href="https://benjamindettling.ch"
-                  >
-                    See Live
-                  </a>
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    className="cta-btn text-color-main"
-                    href="https://github.com/benjamindettling"
-                  >
-                    Source Code
-                  </a>
-                </div>
+                <h3 className="project-wrapper__text-title">
+                  {t("projects.foe.title")}
+                </h3>
+                <p className="mb-4">{t("projects.foe.description")}</p>
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
               <div className="project-wrapper__image">
-                <div className="thumbnail rounded">
-                  <img
-                    alt="Game Data Project"
-                    className="img-fluid js-tilt"
-                    src={projectImg}
-                  />
+                <div className="thumbnail rounded js-tilt">
+                  <img alt="Game Data Project" className="img-fluid" src={projectImg} />
                 </div>
               </div>
             </div>
