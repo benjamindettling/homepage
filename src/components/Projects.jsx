@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import todolistImg from "/assets/todolist.jpg";
 import projectImg from "/assets/project.jpg";
 
 const Projects = () => {
@@ -9,7 +10,9 @@ const Projects = () => {
     <section id="projects">
       <div className="container">
         <div className="project-wrapper">
-          <h2 className="section-title dark-blue-text">{t("projects.title")}</h2>
+          <h2 className="section-title dark-blue-text">
+            {t("projects.title")}
+          </h2>
 
           {/* Todo List App */}
           <div className="row">
@@ -23,7 +26,7 @@ const Projects = () => {
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn cta-btn--hero"
-                  href="https://todo.benjamindettling.ch"
+                  href="https://todolist.benjamindettling.ch"
                 >
                   {t("projects.seeLive")}
                 </a>
@@ -40,7 +43,11 @@ const Projects = () => {
             <div className="col-lg-8 col-sm-12">
               <div className="project-wrapper__image">
                 <div className="thumbnail rounded js-tilt">
-                  <img alt="Todo List Project" className="img-fluid" src={projectImg} />
+                  <img
+                    alt="Todo List Project"
+                    className="img-fluid"
+                    src={todolistImg}
+                  />
                 </div>
               </div>
             </div>
@@ -59,7 +66,11 @@ const Projects = () => {
             <div className="col-lg-8 col-sm-12">
               <div className="project-wrapper__image">
                 <div className="thumbnail rounded js-tilt">
-                  <img alt="Digit Classifier Project" className="img-fluid" src={projectImg} />
+                  <img
+                    alt="Digit Classifier Project"
+                    className="img-fluid"
+                    src={projectImg}
+                  />
                 </div>
               </div>
             </div>
@@ -78,7 +89,11 @@ const Projects = () => {
             <div className="col-lg-8 col-sm-12">
               <div className="project-wrapper__image">
                 <div className="thumbnail rounded js-tilt">
-                  <img alt="Game Data Project" className="img-fluid" src={projectImg} />
+                  <img
+                    alt="Game Data Project"
+                    className="img-fluid"
+                    src={projectImg}
+                  />
                 </div>
               </div>
             </div>
