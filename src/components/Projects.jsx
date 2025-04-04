@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import todolistImg from "/assets/todolist.jpg";
+import digitImg from "/assets/digit.jpg";
 import projectImg from "/assets/project.jpg";
 
 const Projects = () => {
@@ -61,6 +62,22 @@ const Projects = () => {
                   {t("projects.digits.title")}
                 </h3>
                 <p className="mb-4">{t("projects.digits.description")}</p>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="cta-btn cta-btn--hero"
+                  href="https://digit.benjamindettling.ch"
+                >
+                  {t("projects.seeLive")}
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="cta-btn text-color-main"
+                  href="https://github.com/benjamindettling/digit-frontend"
+                >
+                  {t("projects.sourceCode")}
+                </a>
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
@@ -69,7 +86,7 @@ const Projects = () => {
                   <img
                     alt="Digit Classifier Project"
                     className="img-fluid"
-                    src={projectImg}
+                    src={digitImg}
                   />
                 </div>
               </div>
