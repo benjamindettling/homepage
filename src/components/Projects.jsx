@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import todolistImg from "/assets/todolist.jpg";
 import digitImg from "/assets/digit.jpg";
-import projectImg from "/assets/project.jpg";
+import flappybird from "/assets/flappybird.jpg";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -93,14 +93,14 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Game Data Aggregator */}
+          {/* Flappy Bird */}
           <div className="row">
             <div className="col-lg-4 col-sm-12">
               <div className="project-wrapper__text">
                 <h3 className="project-wrapper__text-title">
-                  {t("projects.foe.title")}
+                  {t("projects.flappy.title")}
                 </h3>
-                <p className="mb-4">{t("projects.foe.description")}</p>
+                <p className="mb-4">{t("projects.flappy.description")}</p>
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
@@ -109,7 +109,7 @@ const Projects = () => {
                   <img
                     alt="Game Data Project"
                     className="img-fluid"
-                    src={projectImg}
+                    src={flappybird}
                   />
                 </div>
               </div>

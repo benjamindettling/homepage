@@ -22,9 +22,9 @@
       "title": "Ziffern-Klassifikator",
       "description": "Ein Deep-Learning-Projekt, bei dem ich ein neuronales Netzwerk trainiert habe, um handgeschriebene Ziffern zu erkennen."
     },
-    "foe": {
-      "title": "Spieldaten-Analyse",
-      "description": "Ein System zur Extraktion und Analyse von Spielerstatistiken über mehrere Matches hinweg."
+    "flappy": {
+      "title": "Flappy Bird",
+      "description": "Ein Spiel zum Zeitvertreib. AI Implementation geplant"
     }
   },
   "contact": {

@@ -22,9 +22,9 @@
       "title": "Digit Classifier",
       "description": "A deep learning project where I trained a neural network to accurately classify handwritten digits."
     },
-    "foe": {
-      "title": "Game Data Aggregator",
-      "description": "A system for extracting and analyzing player statistics across various matches for insights and performance."
+    "flappy": {
+      "title": "Flappy Bird",
+      "description": "A little webgame. AI implementation will follow soon"
     }
   },
   "contact": {
