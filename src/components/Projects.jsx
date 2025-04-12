@@ -101,6 +101,22 @@ const Projects = () => {
                   {t("projects.flappy.title")}
                 </h3>
                 <p className="mb-4">{t("projects.flappy.description")}</p>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="cta-btn cta-btn--hero"
+                  href="https://flappybird.benjamindettling.ch"
+                >
+                  {t("projects.seeLive")}
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="cta-btn text-color-main"
+                  href="https://github.com/benjamindettling/flappybird"
+                >
+                  {t("projects.sourceCode")}
+                </a>
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
