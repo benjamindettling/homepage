@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import todolistImg from "/assets/todolist.jpg";
 import digitImg from "/assets/digit.jpg";
+import diagnosisImg from "/assets/diagnosis.jpg";
 import flappybird from "/assets/flappybird.jpg";
 
 const Projects = () => {
@@ -87,6 +88,45 @@ const Projects = () => {
                     alt="Digit Classifier Project"
                     className="img-fluid"
                     src={digitImg}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* AI Diagnosis App */}
+          <div className="row">
+            <div className="col-lg-4 col-sm-12">
+              <div className="project-wrapper__text">
+                <h3 className="project-wrapper__text-title">
+                  {t("projects.diagnosis.title")}
+                </h3>
+                <p className="mb-4">{t("projects.diagnosis.description")}</p>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="cta-btn cta-btn--hero"
+                  href="https://diagnosis.benjamindettling.ch"
+                >
+                  {t("projects.seeLive")}
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="cta-btn text-color-main"
+                  href="https://github.com/benjamindettling/AI-diagnosis-frontend"
+                >
+                  {t("projects.sourceCode")}
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-8 col-sm-12">
+              <div className="project-wrapper__image">
+                <div className="thumbnail rounded js-tilt">
+                  <img
+                    alt="Diagnosis Classifier Project"
+                    className="img-fluid"
+                    src={diagnosisImg}
                   />
                 </div>
               </div>

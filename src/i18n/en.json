@@ -22,6 +22,10 @@
       "title": "Digit Classifier",
       "description": "A deep learning project where I trained a neural network to accurately classify handwritten digits."
     },
+    "diagnosis": {
+      "title": "Diagnosis App",
+      "description": "A web application that provides a medical diagnosis based on user inputs using an AI API"
+    },
     "flappy": {
       "title": "Flappy Bird",
       "description": "A little webgame. AI implementation will follow soon"

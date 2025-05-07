@@ -22,6 +22,10 @@
       "title": "Ziffern-Klassifikator",
       "description": "Ein Deep-Learning-Projekt, bei dem ich ein neuronales Netzwerk trainiert habe, um handgeschriebene Ziffern zu erkennen."
     },
+    "diagnosis": {
+      "title": "Diagnose App",
+      "description": "Eine Webanwendung, die basierend auf Nutzereingaben eine medizinische Diagnose mithilfe einer KI API bereitstellt."
+    },
     "flappy": {
       "title": "Flappy Bird",
       "description": "Ein Spiel zum Zeitvertreib. AI Implementation geplant"
