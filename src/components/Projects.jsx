@@ -36,7 +36,7 @@ const Projects = () => {
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn text-color-main"
-                  href="https://github.com/benjamindettling/PERN-Stack-TodoList"
+                  href="https://github.com/benjamindettling/todolist"
                 >
                   {t("projects.sourceCode")}
                 </a>
@@ -75,7 +75,7 @@ const Projects = () => {
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn text-color-main"
-                  href="https://github.com/benjamindettling/digit-frontend"
+                  href="https://github.com/benjamindettling/digit-classifier"
                 >
                   {t("projects.sourceCode")}
                 </a>
@@ -114,7 +114,7 @@ const Projects = () => {
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn text-color-main"
-                  href="https://github.com/benjamindettling/AI-diagnosis-frontend"
+                  href="https://github.com/benjamindettling/AI-diagnosis"
                 >
                   {t("projects.sourceCode")}
                 </a>
