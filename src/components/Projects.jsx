@@ -16,19 +16,19 @@ const Projects = () => {
             {t("projects.title")}
           </h2>
 
-          {/* Todo List App */}
+          {/* AI Diagnosis App */}
           <div className="row">
             <div className="col-lg-4 col-sm-12">
               <div className="project-wrapper__text">
                 <h3 className="project-wrapper__text-title">
-                  {t("projects.todo.title")}
+                  {t("projects.diagnosis.title")}
                 </h3>
-                <p className="mb-4">{t("projects.todo.description")}</p>
+                <p className="mb-4">{t("projects.diagnosis.description")}</p>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn cta-btn--hero"
-                  href="https://todolist.benjamindettling.ch"
+                  href="https://diagnosis.benjamindettling.ch"
                 >
                   {t("projects.seeLive")}
                 </a>
@@ -36,7 +36,7 @@ const Projects = () => {
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn text-color-main"
-                  href="https://github.com/benjamindettling/todolist"
+                  href="https://github.com/benjamindettling/AI-diagnosis"
                 >
                   {t("projects.sourceCode")}
                 </a>
@@ -46,9 +46,9 @@ const Projects = () => {
               <div className="project-wrapper__image">
                 <div className="thumbnail rounded js-tilt">
                   <img
-                    alt="Todo List Project"
+                    alt="Diagnosis Classifier Project"
                     className="img-fluid"
-                    src={todolistImg}
+                    src={diagnosisImg}
                   />
                 </div>
               </div>
@@ -94,19 +94,19 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* AI Diagnosis App */}
+          {/* Todo List App */}
           <div className="row">
             <div className="col-lg-4 col-sm-12">
               <div className="project-wrapper__text">
                 <h3 className="project-wrapper__text-title">
-                  {t("projects.diagnosis.title")}
+                  {t("projects.todo.title")}
                 </h3>
-                <p className="mb-4">{t("projects.diagnosis.description")}</p>
+                <p className="mb-4">{t("projects.todo.description")}</p>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn cta-btn--hero"
-                  href="https://diagnosis.benjamindettling.ch"
+                  href="https://todolist.benjamindettling.ch"
                 >
                   {t("projects.seeLive")}
                 </a>
@@ -114,7 +114,7 @@ const Projects = () => {
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn text-color-main"
-                  href="https://github.com/benjamindettling/AI-diagnosis"
+                  href="https://github.com/benjamindettling/todolist"
                 >
                   {t("projects.sourceCode")}
                 </a>
@@ -124,9 +124,9 @@ const Projects = () => {
               <div className="project-wrapper__image">
                 <div className="thumbnail rounded js-tilt">
                   <img
-                    alt="Diagnosis Classifier Project"
+                    alt="Todo List Project"
                     className="img-fluid"
-                    src={diagnosisImg}
+                    src={todolistImg}
                   />
                 </div>
               </div>
