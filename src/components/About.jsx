@@ -23,14 +23,18 @@ const About = () => {
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="about-wrapper__info">
-              <p className="about-wrapper__info-text">{t("about.description1")}</p>
-              <p className="about-wrapper__info-text">{t("about.description2")}</p>
+              <p className="about-wrapper__info-text">
+                {t("about.description1")}
+              </p>
+              <p className="about-wrapper__info-text">
+                {t("about.description2")}
+              </p>
               <span className="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn cta-btn--resume"
-                  href="/assets/CV_Benjamin_Dettling.pdf"
+                  href="/assets/Benjamin_Dettling_CV.pdf"
                 >
                   {t("about.resume")}
                 </a>
