@@ -34,7 +34,11 @@ const About = () => {
                   rel="noreferrer"
                   target="_blank"
                   className="cta-btn cta-btn--resume"
-                  href="/assets/Benjamin_Dettling_CV.pdf"
+                  href={
+                    i18n.language === "de"
+                      ? "/assets/benjamin_dettling_Lebenslauf.pdf"
+                      : "/assets/benjamin_dettling_CV.pdf"
+                  }
                 >
                   {t("about.resume")}
                 </a>
