@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import profileImg from "/assets/profile.jpg";
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <section id="about">
