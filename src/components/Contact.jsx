@@ -14,7 +14,7 @@ const Contact = () => {
             rel="noreferrer"
             target="_blank"
             className="cta-btn cta-btn--resume"
-            href="mailto:benjamin@benjamindettling.ch"
+            href="mailto:ben.dettling@web.de"
           >
             {t("contact.button")}
           </a>

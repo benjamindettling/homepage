@@ -149,6 +149,7 @@ const Projects = () => {
                 >
                   {t("projects.seeLive")}
                 </a>
+                {/*
                 <a
                   rel="noreferrer"
                   target="_blank"
@@ -157,6 +158,7 @@ const Projects = () => {
                 >
                   {t("projects.sourceCode")}
                 </a>
+                */}
               </div>
             </div>
             <div className="col-lg-8 col-sm-12">
