@@ -1,6 +1,6 @@
 {
   "hero": {
-    "intro": "Hallo, mein Name ist {{name}}",
+    "intro": "Hallo, ich heisse <name>Benjamin Dettling</name>",
     "subtitle": "Ich bin ein motivierter Informatiker der ETH Zürich.",
     "cta": "Mehr erfahren"
   },

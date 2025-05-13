@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Trans } from "react-i18next";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -8,7 +9,10 @@ const Hero = () => {
     <section id="hero" className="jumbotron">
       <div className="container">
         <h1 className="hero-title load-hidden">
-          {t("hero.intro", { name: "Benjamin Dettling" })}
+          <Trans
+            i18nKey="hero.intro"
+            components={{ name: <span className="text-color-main" /> }}
+          />
           <br />
           {t("hero.subtitle")}
         </h1>
